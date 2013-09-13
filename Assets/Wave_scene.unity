@@ -117,6 +117,10 @@ Prefab:
       propertyPath: m_RenderingPath
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 6564743b3dbab6d408e06b80bdaa6cb2, type: 2}
+      propertyPath: m_HDR
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400002, guid: 6564743b3dbab6d408e06b80bdaa6cb2, type: 2}
     - {fileID: 11400004, guid: 6564743b3dbab6d408e06b80bdaa6cb2, type: 2}
@@ -3841,7 +3845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 10
-  speed: 60
+  speed: 62
   targetPos: {x: 0, y: 0, z: 0}
   characterObj: {fileID: 1119919036}
   footscripts:
@@ -6706,6 +6710,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 116e2d8b78abb204ca6f078147e0dbfc, type: 2}
+      propertyPath: speed
+      value: 62
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116e2d8b78abb204ca6f078147e0dbfc, type: 2}
   m_RootGameObject: {fileID: 574827768}
@@ -6872,7 +6880,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_HDR: 1
+  m_HDR: 0
 --- !u!1 &1528535792
 GameObject:
   m_ObjectHideFlags: 0
